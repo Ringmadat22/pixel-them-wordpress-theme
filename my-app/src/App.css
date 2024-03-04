@@ -72,14 +72,6 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-  .nav-elements ul li {
-    display: block;
-    margin: 10px 0;
-  }
-}
-
 .hamburger-menu {
   display: none; 
 }
@@ -92,40 +84,7 @@ nav ul li a:hover {
 }
 
 /* Responsive styles */
-@media screen and (max-width: 768px) {
-  .hamburger-menu {
-    display: block; 
-    background: none;
-    border: none;
-    cursor: pointer;
-    float: right; 
-    margin-top: 6px;
-  }
 
-  .menu {
-    display: none; 
-  }
-
-  .menu.open {
-    display: flex;
-  }
-  .menu.open li {
-    padding: 5px;
-    margin-top: 10px;
-  }
-
-  .header-container::after {
-  content: "";
-  display: table;
-  clear: both;
-  margin-bottom: 30px;
-}
-
-nav {
-  height: 7vh;
-
-}
-}
 
 .hero-container {
   background-image: url(./images/header-bg.jpeg);

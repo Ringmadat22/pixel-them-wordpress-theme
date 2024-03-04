@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './App.css'; // Import CSS file for styling
+import './App.css';
+import './responsive.css'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
