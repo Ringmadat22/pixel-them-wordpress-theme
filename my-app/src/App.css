@@ -146,4 +146,15 @@ nav {
   cursor: pointer;
   color: #fff;
   transition: all ease 0.3s;
+
+}
+
+.hero-buttons .no-background {
+    transition: all ease 0.3s;
+    border: 2px solid #fff;
+}
+
+.hero-buttons .no-background:hover {
+  color: orange;
+  border: 2px solid orange;
 }

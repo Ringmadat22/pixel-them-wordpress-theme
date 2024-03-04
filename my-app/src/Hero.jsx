@@ -25,11 +25,11 @@ function Hero() {
 
               <div className="hero-buttons-container" style={{ display:"flex", justifyContent:"center", alignItems:"center", marginTop:"40px"}}>
                 <div className="hero-buttons">
-                  <button className="hero-btn-one" style={{background:"inherit" , border:"2px solid #fff"}}>
+                  <button className="no-background" style={{background:"inherit"}}>
                     LEARN MORE
                   </button>
 
-                  <button className="hero-btn-two" style={{background:"orange" , border:"2px solid orange", color:"#fff "}}>
+                  <button className="has-background" style={{background:"orange" , border:"2px solid orange", color:"#fff "}}>
                     CONTACT US
                   </button>
 

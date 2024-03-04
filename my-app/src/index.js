@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom'; // Import ReactDOM from 'react-dom' instead of 'react-dom/client'
-
+import ReactDOM from 'react-dom'; 
 import Header from './header';
 import Hero from './Hero';
 import reportWebVitals from './reportWebVitals';
