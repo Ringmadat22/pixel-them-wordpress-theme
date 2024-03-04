@@ -1,35 +1,43 @@
-import './App.css';
-import { NavLink } from 'react-router-dom'
+import React, { useState } from 'react';
+import './App.css'; // Import CSS file for styling
 
+const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
-
-const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="container">
+    <nav className="header">
+      <div className="header-container">
         <div className="nav-elements">
-          <ul>
+          <button className="hamburger-menu" onClick={toggleMenu}>
+            <div className="hamburger-icon"></div>
+            <div className="hamburger-icon"></div>
+            <div className="hamburger-icon"></div>
+          </button>
+          <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <a href="home">Home</a>
             </li>
             <li>
-              <NavLink to="/blog">Blog</NavLink>
+              <a href="about">About</a>
             </li>
             <li>
-              <NavLink to="/projects">Projects</NavLink>
+              <a href="projects">Projects</a>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <a href="contact">Contact</a>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <a href="blog">Blog</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Header;
