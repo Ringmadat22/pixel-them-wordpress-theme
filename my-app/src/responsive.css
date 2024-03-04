@@ -1,5 +1,18 @@
 
-/* Responsive styles */
+@media screen and (max-width: 1280px) {
+    .hero-container {
+        background-image: url(./images/header-bg.jpeg);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-h2 {
+        font-size: 2rem;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .nav-elements ul li {
       display: block;
@@ -38,4 +51,34 @@
     height: 7vh;
   
   }
+
+}
+
+@media screen and (max-width: 428px) {
+
+    .hero-container {
+        background-image: url(./images/header-bg.jpeg);
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-h1 {
+        font-size: 1rem;
+    }
+
+    .hero-h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-p {
+        font-size: 0.8rem;
+    }
+
+    .hero-buttons button {
+        height: 40px;
+        width: 130px;
+        font-size: 15px;
+    }
+
 }
