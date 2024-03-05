@@ -141,7 +141,6 @@ nav ul li a:hover {
 }
 
 .services-section {
-  background-color: rgb(255, 255, 255);
   margin: 100px 0 40px 0;
   width: 100%;
 }
@@ -154,7 +153,6 @@ nav ul li a:hover {
 
 .services-main {
   width: 70%;
-  background-color: bisque;
   display: flex;
   flex-direction: column;
   align-items: center;
