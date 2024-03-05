@@ -208,7 +208,8 @@ nav ul li a:hover {
 .circle-wrap .circle .mask,
 .circle-wrap .circle .fill-1,
 .circle-wrap .circle .fill-2,
-.circle-wrap .circle .fill-3 {
+.circle-wrap .circle .fill-3,
+.circle-wrap .circle .fill-4  {
   width: 220px; /* increase the size by 60px */
   height: 220px; /* increase the size by 60px */
   position: absolute;
@@ -307,5 +308,26 @@ nav ul li a:hover {
   }
   100% {
     transform: rotate(144deg); /* adjust rotation for increased size */
+  }
+}
+
+/* 4th progress bar */
+.mask .fill-4 {
+  clip: rect(0px, 110px, 220px, 0px); /* adjust clip value for increased size */
+  background-color: orange;
+}
+
+.mask.full-4,
+.circle .fill-4 {
+  animation: fill-4 ease-in-out 3s;
+  transform: rotate(175deg); /* adjust rotation for increased size */
+}
+
+@keyframes fill-4{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(175deg); /* adjust rotation for increased size */
   }
 }

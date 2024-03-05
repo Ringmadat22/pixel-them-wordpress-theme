@@ -87,6 +87,25 @@ function solution(){
                                 </div>
                             </div>
                         </div>
+
+
+                        <div class="circle-wrap">
+                            <div class="circle">
+                                <div class="mask full-4">
+                                    <div class="fill-4"></div>
+                                </div>
+                                <div class="mask half">
+                                    <div class="fill-4"></div>
+                                </div>
+                                <div class="inside-circle">  <br />  
+                                <div className="inside-circle-content">
+                                        <h1>99%</h1>
+                                        <span>Digital Marketing</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </section>
