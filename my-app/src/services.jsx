@@ -10,8 +10,8 @@ function solution(){
                         We build solutions for your everyday problems.
                         </h1>
 
-                        <div className="divider" style={{height:"6px",display:"flex",width:"100%",justifyContent:"center",textAlign:"center"}}>
-                            <div style={{width:"70px" ,height:"4px", background:"orange"}}></div>
+                        <div className="divider" style={{height:"3px",display:"flex",width:"100%",justifyContent:"center",textAlign:"center",marginBottom:"20px"}}>
+                            <div style={{width:"70px" ,height:"3px", background:"orange"}}></div>
                         </div>
                         
                         <p className="services-p" style={{marginBottom:"40px"}}>
@@ -22,14 +22,10 @@ function solution(){
                             Creative ut tincidunt nibh, varius cursus nunc. Curabitur molestie, metus vel luctus euismod, mi libero laoreet odio, eu dapibus leo tortor sit amet purus. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                         </p>
 
-                        <div className="services-h2-content">
-                            <h4 className="services-h2">
+                        <div className="services-h4-content">
+                            <h4 className="services-h4">
                                 Working with Pixova has been an experience for a lifetime. I strongly reccommend these guys for their awesome support. Erlich Bachman, Aviato
                             </h4>
-                        </div>
-
-                        <div className="count-content">
-                            
                         </div>
 
                     </div>
