@@ -29,8 +29,68 @@ function solution(){
                         </div>
 
                     </div>
+
+                </div>
+
+            </section>
+
+            <section className="counter">
+                <div className="counter-container">
+
+                    <div class="all">
+
+                        <div class="circle-wrap">
+                            <div class="circle">
+                                <div class="mask full-1">
+                                    <div class="fill-1"></div>
+                                </div>
+                                <div class="mask half">
+                                    <div class="fill-1"></div>
+                                </div>
+                                <div class="inside-circle">  <br /> 
+                                    <div className="inside-circle-content">
+                                        <h1>85%</h1>
+                                        <span>Web Development</span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="circle-wrap">
+                            <div class="circle">
+                                <div class="mask full-2">
+                                <div class="fill-2"></div>
+                                    </div>
+                                <div class="mask half">
+                                    <div class="fill-2"></div>
+                                </div>
+                                <div class="inside-circle"><br /> 
+                                    <div className="inside-circle-content">
+                                        <h1>65%</h1>
+                                        <span>Web Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="circle-wrap">
+                            <div class="circle">
+                                <div class="mask full-3">
+                                    <div class="fill-3"></div>
+                                </div>
+                                <div class="mask half">
+                                    <div class="fill-3"></div>
+                                </div>
+                                <div class="inside-circle">  <br />  
+                                <div className="inside-circle-content">
+                                        <h1>75%</h1>
+                                        <span>SEO Optimization</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
+
         </>
     )
 }
