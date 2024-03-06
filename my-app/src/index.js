@@ -4,6 +4,7 @@ import Header from './header';
 import Hero from './Hero';
 import Services from './services'
 import reportWebVitals from './reportWebVitals';
+import Work from './work'
 
 const App = () => {
 
@@ -12,7 +13,9 @@ const App = () => {
       <Header />
       <Hero />
       <Services />
+      <Work />
     </React.StrictMode>
+
   );
 };
 
