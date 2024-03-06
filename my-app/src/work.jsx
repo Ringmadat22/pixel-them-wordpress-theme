@@ -1,5 +1,6 @@
 import "./App.css";
 import Highlight from "./images/car2.jpg";
+import Button from '@mui/material/Button';
 
 function work() {
     return(
@@ -26,7 +27,12 @@ function work() {
                                             class="image"
                                         />
                                         <div class="overlay-bottom">
-                                            <div class="text">Hello World</div>
+                                            <div class="text">
+                                            <h1 style={{fontSize:"16px"}}>WEB AGENCY</h1>
+                                                <Button className="work-btn" variant="contained" size="small" >
+                                                    See Project
+                                                </Button>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -37,7 +43,12 @@ function work() {
                                             class="image"
                                         />
                                         <div class="overlay-bottom">
-                                            <div class="text">Hello World</div>
+                                            <div class="text">
+                                            <h1 style={{fontSize:"16px"}}>WEB AGENCY</h1>
+                                                <Button className="work-btn" variant="contained" size="small" >
+                                                    See Project
+                                                </Button>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -48,7 +59,12 @@ function work() {
                                             class="image"
                                         />
                                         <div class="overlay-bottom">
-                                            <div class="text">Hello World</div>
+                                            <div class="text">
+                                            <h1 style={{fontSize:"16px"}}>WEB AGENCY</h1>
+                                                <Button className="work-btn" variant="contained" size="small" >
+                                                    See Project
+                                                </Button>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -61,9 +77,9 @@ function work() {
                                         <div class="overlay-bottom">
                                             <div class="text">
                                                 <h1 style={{fontSize:"16px"}}>WEB AGENCY</h1>
-                                                <button className="work-btn">
+                                                <Button className="work-btn" variant="contained" size="small" >
                                                     See Project
-                                                </button>
+                                                </Button>
                                             </div>
                                         </div>
                                     </div>

@@ -5,6 +5,7 @@ import Hero from './Hero';
 import Services from './services'
 import reportWebVitals from './reportWebVitals';
 import Work from './work'
+import Testimony from './testimony'
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
       <Hero />
       <Services />
       <Work />
+      <Testimony />
     </React.StrictMode>
 
   );
