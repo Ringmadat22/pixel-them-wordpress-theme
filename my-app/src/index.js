@@ -5,9 +5,9 @@ import Hero from './Hero';
 import Services from './services'
 import reportWebVitals from './reportWebVitals';
 import Work from './work'
-import Testimony from './testimony'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Testimony  from './testimony';
 
 const App = () => {
 
