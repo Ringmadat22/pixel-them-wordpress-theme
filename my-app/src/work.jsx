@@ -1,5 +1,5 @@
-import "./App.css"
-
+import "./App.css";
+import Highlight from "./images/car2.jpg";
 
 function work() {
     return(
@@ -15,8 +15,65 @@ function work() {
 
                             <p style={{textAlign:"center", fontWeight:"200"}}>It's show and tell time</p>
                         </div>
+
+                        <div className="work">
+                            <div className="work-main">
+                                <div className="work-one">
+                                    <div className="work-main-content">
+                                        <img
+                                            src={Highlight}
+                                            alt="Avatar"
+                                            class="image"
+                                        />
+                                        <div class="overlay-bottom">
+                                            <div class="text">Hello World</div>
+                                        </div>
+                                    </div>
+
+                                    <div className="work-main-content">
+                                        <img
+                                            src={Highlight}
+                                            alt="Avatar"
+                                            class="image"
+                                        />
+                                        <div class="overlay-bottom">
+                                            <div class="text">Hello World</div>
+                                        </div>
+                                    </div>
+
+                                    <div className="work-main-content">
+                                        <img
+                                            src={Highlight}
+                                            alt="Avatar"
+                                            class="image"
+                                        />
+                                        <div class="overlay-bottom">
+                                            <div class="text">Hello World</div>
+                                        </div>
+                                    </div>
+
+                                    <div className="work-main-content">
+                                        <img
+                                            src={Highlight}
+                                            alt="Avatar"
+                                            class="image"
+                                        />
+                                        <div class="overlay-bottom">
+                                            <div class="text">
+                                                <h1 style={{fontSize:"16px"}}>WEB AGENCY</h1>
+                                                <button className="work-btn">
+                                                    See Project
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </section>
+            </section>
         </>
     )    
 }
