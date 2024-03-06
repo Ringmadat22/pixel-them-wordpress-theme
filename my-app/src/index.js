@@ -6,6 +6,8 @@ import Services from './services'
 import reportWebVitals from './reportWebVitals';
 import Work from './work'
 import Testimony from './testimony'
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const App = () => {
 
