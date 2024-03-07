@@ -8,6 +8,7 @@ import Work from './work'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Testimony  from './testimony';
+import Team from './team'
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
       <Services />
       <Work />
       <Testimony />
+      <Team />
     </React.StrictMode>
 
   );
