@@ -502,7 +502,8 @@ input[type="message"] {
   transition: 0.2s ease;
 }
 .footer-col form button:hover {
-  background: #cecccc;
+  background: orange;
+  color: #fff;
 }
 .footer-col .icons {
   display: flex;
