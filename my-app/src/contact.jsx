@@ -16,7 +16,30 @@ function contact() {
                     </div>
 
                     <div className="contact-content">
+                        <div className="contact-content-main">
+                            <div className="left-contact">
+                                <div className="left-contact-content">
+                                    <h3>Address</h3>
+                                    <p>Street 221B Baker Street</p>
 
+                                    <div>
+                                        <h3>Customer Support</h3>
+                                        <p>Phone: 0 332 548 954</p>
+                                        <p>Email: contact@site.com</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="right-contact">
+                                <div className="right-contact-content">
+                                    <form>
+                                        <input type="text" placeholder="Enter Your Name"></input>
+                                        <input type="email" placeholder="Enter Your Email"></input>
+                                        <textarea col="20" row="30" placeholder="Enter your Message here"></textarea>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
