@@ -4,12 +4,13 @@ import Header from './header';
 import Hero from './Hero';
 import Services from './services'
 import reportWebVitals from './reportWebVitals';
-import Work from './work'
+import Work from './work';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Testimony  from './testimony';
-import Team from './team'
-import Contactus from './contact'
+import Team from './team';
+import Contactus from './contact';
+import Footer from './footer';
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
       <Testimony />
       <Team />
       <Contactus />
+      <Footer />
     </React.StrictMode>
 
   );

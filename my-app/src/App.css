@@ -346,7 +346,7 @@ h1 {
 
 .contact-section {
   background-color: rgba(0, 0, 0, 0.030);
-  height: 60vh;
+  height: 70vh;
   padding: 30px 0;
   margin-top: 30px;
 }
@@ -434,4 +434,114 @@ input[type="message"] {
   color: #fff;
   width: 180px;
   margin:10px 10px;
+}
+
+.footer {
+  width: 100%;
+  background: #ffffff;
+}
+.footer .footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.5rem;
+  padding: 60px;
+}
+.footer-row .footer-col h4 {
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.footer-col .links {
+  margin-top: 20px;
+}
+.footer-col .links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer-col .links li a {
+  text-decoration: none;
+  color: rgb(132, 131, 131);
+  font-size: 15px;
+}
+.footer-col .links li a:hover {
+  color: #000000;
+}
+.footer-col p {
+  margin: 20px 0;
+  color: rgb(132, 131, 131);
+  max-width: 300px;
+}
+.footer-col form {
+  display: flex;
+  gap: 5px;
+}
+.footer-col input {
+  height: 40px;
+  border-radius: 6px;
+  background: none;
+  width: 100%;
+  outline: none;
+  border: 1px solid #7489C6 ;
+  caret-color: rgb(132, 131, 131);
+  color: #fff;
+  padding-left: 10px;
+  margin-left: 0;
+}
+.footer-col input::placeholder {
+  color: #ccc;
+}
+ .footer-col form button {
+  background: #fff;
+  outline: none;
+  border: 1px solid orange;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+.footer-col form button:hover {
+  background: #cecccc;
+}
+.footer-col .icons {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+}
+.footer-col .icons i {
+  color: #2b2b2b;
+}
+.footer-col .icons i:hover  {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .footer {
+    position: relative;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+  .footer .footer-row {
+    padding: 20px;
+    gap: 1rem;
+  }
+  .footer-col form {
+    display: block;
+  }
+  .footer-col form :where(input, button) {
+    width: 100%;
+  }
+  .footer-col form button {
+    margin: 10px 0 0 0;
+  }
+}
+
+.footer .f-h4 {
+  padding:30px 32px;
+}
+
+.newsletter {
+  padding:30px 0;
 }
