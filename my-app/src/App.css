@@ -348,6 +348,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.030);
   height: 60vh;
   padding: 30px 0;
+  margin-top: 30px;
 }
 
 
@@ -360,20 +361,77 @@ h1 {
 }
 
 .contact-content {
-  background-color: #ebd98760;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px 0;
+  margin-top: 40px;
 }
 
 .contact-content-main {
   width: 80%;
-  background-color: aquamarine;
   display: flex;
   justify-content: space-between;
+  padding: 0 100px;
 }
 
 .contact-content-main>div {
   width: 100%;
+}
+
+.left-contact-content h3{
+  font-size: 16px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.left-contact-conten p{
+  font-size: 12px;
+  font-weight: 100;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border-radius: 5px;
+  border:1px solid rgba(189, 187, 187, 0.371);
+}
+
+input:focus {
+  border: 1px solid orange;
+}
+
+
+input[type="text"] {
+  padding: 7px 20px;
+  margin: 10px;
+  outline: none;
+  width: 500px;
+}
+
+input[type="email"] {
+  padding: 7px 20px;
+  margin: 10px;
+  outline: none;
+  margin-right: 30px;
+  width: 500px;
+}
+
+input[type="message"] {
+  height: 150px;
+  margin: 10px;
+  width: 500px;
+  outline: none;
+  padding: 0px 20px;
+
+}
+
+#contact-btn {
+  background-color: orange;
+  color: #fff;
+  width: 180px;
+  margin:10px 10px;
 }

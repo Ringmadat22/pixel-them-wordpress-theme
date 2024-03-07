@@ -22,7 +22,7 @@ function contact() {
                                     <h3>Address</h3>
                                     <p>Street 221B Baker Street</p>
 
-                                    <div>
+                                    <div style={{marginTop:"30px"}}>
                                         <h3>Customer Support</h3>
                                         <p>Phone: 0 332 548 954</p>
                                         <p>Email: contact@site.com</p>
@@ -35,7 +35,10 @@ function contact() {
                                     <form>
                                         <input type="text" placeholder="Enter Your Name"></input>
                                         <input type="email" placeholder="Enter Your Email"></input>
-                                        <textarea col="20" row="30" placeholder="Enter your Message here"></textarea>
+                                        <input type="message" placeholder="Enter Your Message"></input>
+                                        <a className="btn py-3 px-5" href="home" id="contact-btn">
+                                            Contact Us
+                                        </a>
                                     </form>
                                 </div>
                             </div>
